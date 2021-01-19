@@ -6,5 +6,6 @@ https://bootcamp-etech.vercel.app/
 
 # How to clone
 - `git clone reponya`
+- `npm install`
 - `npm run tw:build`
 - `use live server to run index.html`
