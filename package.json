@@ -1,0 +1,26 @@
+{
+  "name": "bootcamp_etech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "tailwindcss build ./assets/css/tailwind.css -o ./src/css/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezak400/bootcamp_etech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rezak400/bootcamp_etech/issues"
+  },
+  "homepage": "https://github.com/rezak400/bootcamp_etech#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
+  }
+}
