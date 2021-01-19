@@ -4320,6 +4320,18 @@ video {
   background-image: url('../../assets/images/shoe-1.jpeg');
 }
 
+.bg-shoe-2 {
+  background-image: url('../../assets/images/shoe-2.jpeg');
+}
+
+.bg-shoe-3 {
+  background-image: url('../../assets/images/shoe-3.jpeg');
+}
+
+.bg-shoe-4 {
+  background-image: url('../../assets/images/shoe-4.jpeg');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -35482,6 +35494,18 @@ video {
     background-image: url('../../assets/images/shoe-1.jpeg');
   }
 
+  .sm\:bg-shoe-2 {
+    background-image: url('../../assets/images/shoe-2.jpeg');
+  }
+
+  .sm\:bg-shoe-3 {
+    background-image: url('../../assets/images/shoe-3.jpeg');
+  }
+
+  .sm\:bg-shoe-4 {
+    background-image: url('../../assets/images/shoe-4.jpeg');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -66564,6 +66588,18 @@ video {
 
   .md\:bg-hero {
     background-image: url('../../assets/images/shoe-1.jpeg');
+  }
+
+  .md\:bg-shoe-2 {
+    background-image: url('../../assets/images/shoe-2.jpeg');
+  }
+
+  .md\:bg-shoe-3 {
+    background-image: url('../../assets/images/shoe-3.jpeg');
+  }
+
+  .md\:bg-shoe-4 {
+    background-image: url('../../assets/images/shoe-4.jpeg');
   }
 
   .md\:from-transparent {
@@ -97650,6 +97686,18 @@ video {
     background-image: url('../../assets/images/shoe-1.jpeg');
   }
 
+  .lg\:bg-shoe-2 {
+    background-image: url('../../assets/images/shoe-2.jpeg');
+  }
+
+  .lg\:bg-shoe-3 {
+    background-image: url('../../assets/images/shoe-3.jpeg');
+  }
+
+  .lg\:bg-shoe-4 {
+    background-image: url('../../assets/images/shoe-4.jpeg');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -128734,6 +128782,18 @@ video {
     background-image: url('../../assets/images/shoe-1.jpeg');
   }
 
+  .xl\:bg-shoe-2 {
+    background-image: url('../../assets/images/shoe-2.jpeg');
+  }
+
+  .xl\:bg-shoe-3 {
+    background-image: url('../../assets/images/shoe-3.jpeg');
+  }
+
+  .xl\:bg-shoe-4 {
+    background-image: url('../../assets/images/shoe-4.jpeg');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -159816,6 +159876,18 @@ video {
 
   .\32xl\:bg-hero {
     background-image: url('../../assets/images/shoe-1.jpeg');
+  }
+
+  .\32xl\:bg-shoe-2 {
+    background-image: url('../../assets/images/shoe-2.jpeg');
+  }
+
+  .\32xl\:bg-shoe-3 {
+    background-image: url('../../assets/images/shoe-3.jpeg');
+  }
+
+  .\32xl\:bg-shoe-4 {
+    background-image: url('../../assets/images/shoe-4.jpeg');
   }
 
   .\32xl\:from-transparent {

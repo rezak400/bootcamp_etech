@@ -17,6 +17,9 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'hero': "url('../../assets/images/shoe-1.jpeg')",
+        'shoe-2': "url('../../assets/images/shoe-2.jpeg')",
+        'shoe-3': "url('../../assets/images/shoe-3.jpeg')",
+        'shoe-4': "url('../../assets/images/shoe-4.jpeg')"
        })
     },
   },
