@@ -5,19 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman Home</title>
     <link rel="stylesheet" href="./css/tailwind.css">
+    
+     <!-- ? Fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+     
+     <!-- ? Tailwind Source -->
+     <link rel="stylesheet" href="./css/tailwind.css">
+ 
+     <!-- ? Javasript -->
+     <script src="./js/index.js"></script>
 </head>
 <body>
-    <div class="bg-primary text-white flex justify-between p-4">
+    <!-- ! NavBar -->
+    <div class="bg-primary text-white flex justify-between px-4 py-5 font-primary text-sm">
         
         <!-- ! Left -->
         <div>
-            <p>Logo</p>
+            <p onclick="redirect('home')">Logo</p>
         </div> 
 
         <!-- ! Right -->
-        <div class="">
+        <div class="font-primary grid grid-cols-3 gap-4"">
             <a href="./home.html">Home</a>
-            <a href="#">Catalog</a>
+            <a href="./catalog.html">Catalog</a>
             <a href="#">Profile</a>
         </div>
     </div>

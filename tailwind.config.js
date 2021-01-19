@@ -15,6 +15,9 @@ module.exports = {
         primary: ['Poppins'],
         secondary: ["Raleway"]
       },
+      backgroundImage: theme => ({
+        'hero': "url('../../assets/images/shoe-1.jpeg')",
+       })
     },
   },
   variants: {

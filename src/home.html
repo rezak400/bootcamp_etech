@@ -4,34 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman Home</title>
+
+    <!-- ? Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+    
+    <!-- ? Tailwind Source -->
     <link rel="stylesheet" href="./css/tailwind.css">
+
+    <!-- ? Javasript -->
+    <script src="./js/index.js"></script>
+
 </head>
-<body>
+<body class="bg-primary">
 
     <!-- ! NavBar -->
-    <div class="bg-primary text-white flex justify-between p-4">
+    <div class="bg-primary text-white flex justify-between px-4 py-5 font-primary text-sm">
         
         <!-- ! Left -->
         <div>
-            <p>Logo</p>
+            <p onclick="redirect('home')">Logo</p>
         </div> 
 
         <!-- ! Right -->
-        <div class="">
-            <a href="#">Home</a>
+        <div class="font-primary grid grid-cols-3 gap-4"">
+            <a href="./home.html">Home</a>
             <a href="./catalog.html">Catalog</a>
             <a href="#">Profile</a>
         </div>
-    </div>
+    </div> 
 
     <!-- ! Heroes -->
-    <div class="bg-gray-500 h-screen">
-        <div class="flex items-center">
-        <h1 class="text-5xl text-center text-white">" Beli disini ajah, jangan yang lain, gatau kenapa "</h1   >
+    <div class="bg-cover pt-24 pb-28 md:px-24 px-12 relative ">
+        <div class="z-0 bg-center absolute object-left-top bg-gray-300 h-full w-full bg-hero opacity-10 top-0 left-0 bg-no-repeat bg-cover">
+            <!-- ? ngisi buat jadi transparan block -->
+        </div>
+        <div class="flex items-center font-secondary font-normal  text-base md:text-5xl justify-center">
+            <h1 class="text-center text-white z-10">" Beli disini ajah, jangan yang lain, <span class="md:block">biar saya untung "</span></h1   >
+        </div>
+        <div class="flex justify-center mt-12">
+            <button onclick="redirect('catalog')" class="relative text-white font-primary bg-secondary py-2 px-4 hover:bg-red-500">Beli Sekarang</button>
         </div>
     </div>
 
-    <div class="bg-gray-300 h-screen">
+    <div class="bg-gray-300 h-screen ">
         tes
     </div>
 </body>
