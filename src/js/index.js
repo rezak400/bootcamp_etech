@@ -1,3 +1,3 @@
-let redirect = () => {
-    window.location.href = "./home.html"
+let redirect = (url) => {
+    window.location.href = `./${url}.html`
 }

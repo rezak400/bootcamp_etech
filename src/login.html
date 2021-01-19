@@ -6,22 +6,26 @@
     <title>Login</title>
 
     <link rel="stylesheet" href="./css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap" rel="stylesheet">
     <script src="./js/index.js"></script>
 
 </head>
 <body>
     <div class="h-screen bg-primary flex justify-center items-center">
-        <div class="h-1/2 bg-gray-400 md:w-1/2 p-10">
-            <div class="w-1/2">
+        <div class=" bg-third w-full md:w-1/2 py-8 md:px-24 px-12 text-white">
+            <h1 class="text-center font-secondary font-normal text-xl">Login</h1>
+            <div class="font-primary mt-5">
                 <p>Email</p>
-                <input class="outline-none rounded w-full p-1"type="text" placeholder="Email">
+                <input class="mt-2 outline-none w-full p-2 text-black"type="text" placeholder="Email">
             </div>
-            <div>
+            <div class="font-primary mt-5">
                 <p>Password</p>
-                <input type="text">
+                <input class="mt-2 outline-none w-full p-2 text-black"type="password" placeholder="Password">
             </div>
-            <div>
-                <button class="w-full p-2 bg-green-500" onclick="redirect()">Login</button>
+            <div class="mt-10">
+                <button class="w-full p-2 bg-secondary" onclick="redirect(`home`)">Login</button>
+                <p class="text-gray-300 text-center text-sm w-3/4 m-auto font-thin mt-5 cursor-pointer hover:text-white" onclick="redirect('./register')">Belum punya akun? Register disini</p>
             </div>
         </div>
     </div>
