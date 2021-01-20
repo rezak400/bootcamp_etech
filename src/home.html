@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="./css/tailwind.css">
 
     <!-- ? Javasript -->
-    <script src="./js/index.js"></script>
+    <script src="./js/index.js" async></script>
 
 </head>
-<body class="bg-primary">
+<body class="bg-primary" onload="repeatCatalogHome(4)">
 
     <!-- ! NavBar -->
     <div class="bg-primary text-white flex justify-between px-4 py-5 font-primary text-sm">
@@ -40,7 +40,7 @@
             <!-- ? ngisi buat jadi transparan block -->
         </div>
         <div class="flex items-center font-secondary font-normal  text-base md:text-5xl justify-center">
-            <h1 class="text-center text-white z-10">" Beli disini ajah, jangan yang lain, <span class="md:block">biar saya untung "</span></h1   >
+            <h1 class="text-center text-white z-10">" Beli disini ajah, jangan yang lain, <span class="md:block">biar saya untung "</span></h1>
         </div>
         <div class="flex justify-center mt-12">
             <button onclick="redirect('catalog')" class="relative text-white font-primary bg-secondary py-2 px-4 hover:bg-red-500">Beli Sekarang</button>
@@ -48,63 +48,53 @@
     </div>
     
     <!-- ! Catalog -->
-    <div class="grid lg:grid-cols-4 sm:grid-cols-2 gap-10 py-6 px-8">
-        <div class="h-56  bg-no-repeat bg-center bg-shoe-2 bg-cover ">
-            
-        </div>
-        <div class="h-56  bg-no-repeat bg-center bg-shoe-3 bg-cover ">
-            
-        </div>
-        <div class="h-56  bg-no-repeat bg-center bg-shoe-4 bg-cover ">
-            
-        </div>
-        <div class="h-56  bg-no-repeat bg-center bg-hero bg-cover ">
-            
+    <div id="container" class="grid lg:grid-cols-4 sm:grid-cols-2 gap-10 py-10 px-16 text-white">
+        <div class="h-48  bg-no-repeat bg-center bg-shoe-2 bg-cover ">
         </div>
     </div>
 
     <!-- ! Brand -->
-    <div class="bg-third text-white font-secondary italic font-medium text-center">
+    <div  class="bg-third text-white font-secondary italic font-medium text-center text-base md:text-2xl">
         <div class="lg:flex w-full lg:h-screen">
-            <div class="h-96 lg:h-full bg-secondary lg:w-1/2 p-16">
+            <div onclick="redirect('catalog')" class="hover:opacity-50 cursor-pointer h-96 lg:h-full bg-secondary lg:w-1/2 p-16">
                 <div class="bg-shoe-4 bg-cover h-full bg-center">
                     image
                 </div>
             </div>
             <div class="p-10 lg:w-1/2 ">
                 <div class="grid lg:grid-cols-2 gap-6 lg:mt-10">
-                    <div class="w-full text-4xl p-5 border-secondary border-2">Elegan</div>
+                    <div class="w-full p-5 border-secondary border-2">Elegan</div>
                     <div class="hidden lg:block"></div>
                     <div class="hidden lg:block"></div>
-                    <div class="w-full text-4xl p-5 border-secondary border-2">Modern</div>
-                    <div class="w-full text-4xl p-5 border-secondary border-2">Tahan Bocor</div>
+                    <div class="w-full p-5 border-secondary border-2">Modern</div>
+                    <div class="w-full p-5 border-secondary border-2">Tahan Bocor</div>
                     <div class="hidden lg:block"></div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="bg-third text-white font-secondary italic font-medium text-center">
+    </div><div  class="bg-third text-white font-secondary italic font-medium text-center text-base md:text-2xl">
         <div class="lg:flex w-full lg:h-screen flex-row-reverse">
-            <div class="h-96 lg:h-full bg-secondary lg:w-1/2 p-16">
+            <div onclick="redirect('catalog')" class="hover:opacity-50 cursor-pointer h-96 lg:h-full bg-secondary lg:w-1/2 p-16">
                 <div class="bg-shoe-2 bg-cover h-full bg-center">
                     image
                 </div>
             </div>
             <div class="p-10 lg:w-1/2 ">
                 <div class="grid lg:grid-cols-2 gap-6 lg:mt-10">
-                    <div class="w-full text-4xl p-5 border-secondary border-2">Minimalist</div>
+                    <div class="w-full p-5 border-secondary border-2">Elegan</div>
                     <div class="hidden lg:block"></div>
                     <div class="hidden lg:block"></div>
-                    <div class="w-full text-4xl p-5 border-secondary border-2">Slim</div>
-                    <div class="w-full text-4xl p-5 border-secondary border-2">Menunda Lapar</div>
+                    <div class="w-full p-5 border-secondary border-2">Modern</div>
+                    <div class="w-full p-5 border-secondary border-2">Tahan Bocor</div>
                     <div class="hidden lg:block"></div>
                 </div>
             </div>
         </div>
     </div>
+   
 
     <!-- ! Footer -->
-    <div class="text-white text-center p-6">
+    <div class="text-white text-center p-6 text-sm">
         <p class="opacity-20 ">	&copy;2021 Copyright : Reza Dwiputra</p>
     </div>
 </body>
