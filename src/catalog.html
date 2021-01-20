@@ -20,17 +20,15 @@
 
     <!-- ! NavBar -->
     <div class="bg-primary text-white flex justify-between px-4 py-5 font-primary text-sm">
-        
         <!-- ! Left -->
-        <div>
+        <div class="cursor-pointer">
             <p onclick="redirect('home')">Logo</p>
         </div> 
-
         <!-- ! Right -->
         <div class="font-primary grid grid-cols-3 gap-4"">
-            <a href="./home.html">Home</a>
-            <a href="./catalog.html">Catalog</a>
-            <a href="#">Profile</a>
+            <a class="hover:opacity-50" href="./home.html">Home</a>
+            <a class="hover:opacity-50" href="./catalog.html">Catalog</a>
+            <a class="hover:opacity-50" href="#" onclick="alert('Sorry halaman profile gk ada')">Profile</a>
         </div>
     </div> 
 
