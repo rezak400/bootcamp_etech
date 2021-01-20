@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="./css/tailwind.css">
+    
+     <!-- ? Fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+     
+     <!-- ? Tailwind Source -->
+     <link rel="stylesheet" href="./css/tailwind.css">
+ 
+     <!-- ? Javasript -->
+     <script src="./js/index.js" async></script>
+</head>
+<body  onload="repeatCatalogHome(4)" class="bg-primary text-white font-primary" onload="repeatCatalog(12)">
+
+    <!-- ! NavBar -->
+    <div class="bg-primary text-white flex justify-between px-4 py-5 font-primary text-sm">
+        <!-- ! Left -->
+        <div class="cursor-pointer">
+            <p onclick="redirect('home')">Logo</p>
+        </div> 
+        <!-- ! Right -->
+        <div class="font-primary grid grid-cols-3 gap-4"">
+            <a class="hover:opacity-50" href="./home.html">Home</a>
+            <a class="hover:opacity-50" href="./catalog.html">Catalog</a>
+            <a class="hover:opacity-50" href="#" onclick="alert('Sorry halaman profile gk ada')">Profile</a>
+        </div>
+    </div> 
+
+    <!-- !Detail -->
+    <div class=" px-10">
+        <div class="md:flex p-10 ">
+            <div class="md:w-1/2 md:h-96 h-56 ">
+                <div class="bg-hero bg-center bg-cover bg-no-repeat h-full w-full"></div>
+            </div>
+            <div class=" md:w-1/2 md:px-10 pt-10 md:py-0">
+                <h1 class="font-medium text-xl md:text-4xl md:text-left text-center px-10 md:p-0">Kuda Liar 4.9</h1>
+                <div class="outline-white mt-10">
+                    <p class="text-center text-2xl">Size</p>
+                    <div class="flex justify-around outline-white">
+                       <p class="bg-secondary py-0.5 px-3">X</p>
+                       <p>XL</p>
+                       <p>M</p>
+                       <p>L</p>
+                    </div>
+                </div>
+                <div class="outline-white mt-10">
+                    <p class="text-center text-2xl">Size</p>
+                    <div class="flex justify-around outline-white">
+                       <p class="bg-secondary py-0.5 px-3">X</p>
+                       <p>XL</p>
+                       <p>M</p>
+                       <p>L</p>
+                    </div>
+                </div>
+                <div class="outline-white mt-10">
+                    <p class="text-center text-2xl">Size</p>
+                    <div class="flex justify-around outline-white">
+                       <p class="bg-secondary py-0.5 px-3">X</p>
+                       <p>XL</p>
+                       <p>M</p>
+                       <p>L</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="px-10">
+            <div onclick="alert('YEAY DAPET SEPATU')" class="bg-secondary text-center py-3 hover:opacity-80">BELI SEKARANG</div>
+        </div>
+        <div class="px-10 mt-5">
+            <div onclick="redirect('catalog')" class="py-3 hover:opacity-80">< Kembali</div>
+        </div>
+    </div>
+
+    <!-- ! Catalog -->
+    <div id="container" class="mt-10 bg-third grid lg:grid-cols-4 sm:grid-cols-2 gap-10 py-10 px-16 text-white">
+        <div class="h-48  bg-no-repeat bg-center bg-shoe-2 bg-cover ">
+        </div>
+    </div>
+
+
+
+    <!-- ! Footer -->
+    <div class="text-white text-center p-6 text-sm">
+        <p class="opacity-20 ">	&copy;2021 Copyright : Reza Dwiputra</p>
+    </div>
+</body>
+</html>
