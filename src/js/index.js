@@ -3,6 +3,8 @@ let redirect = (url) => {
     window.location.href = `./${url}.html`
 }
 
+//! Repeat DOMMMM
+
 //! Ambil selector dari HTML
 let containerHome = document.getElementById('container');
 let containerCatalog = document.getElementById('container-catalog');
@@ -24,3 +26,9 @@ let repeat = (element, index, container) => {
 let repeatCatalogHome =  (index) => repeat(catalogHome,index,containerHome)
 let repeatCatalog =  (index) => repeat(catalog,index,containerCatalog)
 
+//! Function toggle tab
+let addToggle = (index) => {
+    let element = document.querySelectorAll('#tab')[index];
+    console.log(element)
+    element.classList.toggle("bg-secondary")
+}
