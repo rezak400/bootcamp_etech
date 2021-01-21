@@ -17,14 +17,14 @@
             <h1 class="text-center font-secondary font-semibold text-base">Login</h1>
             <div class="font-primary mt-5 ">
                 <p>Email</p>
-                <input class="mt-2 outline-none w-full p-2 text-black"type="text" placeholder="Email">
+                <input id="email" class="mt-2 outline-none w-full p-2 text-black"type="text" placeholder="Email" required>
             </div>
             <div class="font-primary mt-5 ">
                 <p>Password</p>
-                <input class="mt-2 outline-none w-full p-2 text-black"type="password" placeholder="Password">
+                <input id="password" class="mt-2 outline-none w-full p-2 text-black"type="password" placeholder="Password" required>
             </div>
             <div class="mt-10">
-                <button class="w-full p-2 bg-secondary" onclick="redirect(`home`)">LOGIN</button>
+                <button type="submit" class="w-full p-2 bg-secondary" onclick="submit()">LOGIN</button>
                 <p class="text-gray-300 text-center w-3/4 m-auto font-thin mt-5 cursor-pointer hover:text-white" onclick="redirect('./register')">Belum punya akun? Register disini</p>
             </div>
         </div>

@@ -32,3 +32,17 @@ let addToggle = (index) => {
     console.log(element)
     element.classList.toggle("bg-secondary")
 }
+
+//! Function Submit
+let submit = () => {
+    let email = document.getElementById('email').value;
+    let password = document.getElementById('password').value;
+    console.log(email)
+    console.log(password)
+
+    if( email == 'admin' && password == 'admin'){
+        window.location.href = `./home.html`
+    }else{
+        alert("Email : admin, password : admin")
+    }
+}
